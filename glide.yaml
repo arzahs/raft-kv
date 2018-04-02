@@ -1,0 +1,10 @@
+package: raft-kv
+import:
+- package: github.com/dgraph-io/badger
+  version: ^1.3.0
+- package: github.com/ugorji/go
+  version: ^1.1.0
+  subpackages:
+  - codec
+- package: github.com/hashicorp/raft
+  version: ^1.0.0
